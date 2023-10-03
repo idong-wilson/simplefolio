@@ -413,6 +413,11 @@ span1{
   cursor: pointer;
 }
 
+.jokenote {
+  text-align: center;
+  padding: 1rem;
+}
+
 
 /* Contact Section */
 
