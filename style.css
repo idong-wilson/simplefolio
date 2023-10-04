@@ -1,4 +1,4 @@
-/* GENERAL */
+/* General */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -52,10 +52,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(143, 142, 142);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(199, 199, 199);
 }
 
 .logo {
@@ -94,7 +94,9 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: #D2D6DB;
+  border-radius: 10px 0 0 10px;
+  opacity: 55%;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -133,14 +135,7 @@ a:hover {
 
 .mobile-icon span:first-child {
   transform: none;
-}
-
-.mobile-icon span:first-child {
   opacity: 1;
-}
-
-.mobile-icon span:first-child {
-  transform: none;
 }
 
 /* Sections */
@@ -282,6 +277,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  margin-top: 2rem;
 }
 
 .arrow {
@@ -328,6 +324,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .article-container {
@@ -380,6 +377,11 @@ article .icon {
 
 /* Random Jokes Section */
 
+#jokes {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
 .joke-details-container {
 width: 80%;
 border: 1px solid black;
@@ -426,6 +428,7 @@ span1{
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 10rem;
 }
 
 .contact-info-upper-container {
