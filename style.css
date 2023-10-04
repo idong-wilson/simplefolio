@@ -277,11 +277,10 @@ section {
   display: flex;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+.about-pic {
+  border-radius: 2rem 0 2rem 0;
 }
+
 
 .details-container {
   padding: 1.5rem;
