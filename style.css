@@ -54,10 +54,10 @@ a {
 }
 
 a:hover {
-  color: rgb(143, 142, 142);
+  color: #CAC3D5;
   text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(199, 199, 199);
+  text-underline-offset: 0.5rem;
+  text-decoration-color: #CAC3D5;
 }
 
 .logo {
@@ -277,11 +277,6 @@ section {
   display: flex;
 }
 
-.about-pic {
-  border-radius: 2rem;
-  margin-top: 2rem;
-}
-
 .arrow {
   position: absolute;
   right: -5rem;
@@ -386,8 +381,9 @@ article .icon {
 
 .joke-details-container {
 width: 80%;
-border: 1px solid black;
-border-radius: 10px;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-radius: 25px;
+background-color: #fafafa;
 margin: auto;
 }
 
@@ -403,18 +399,17 @@ span1{
 
 
 #btn{
-  display: block;
-  background-color: #72CDAB;
-  border: none;
-  border-radius: 0.5rem;
-  outline: none;
-  padding: 313rem;
-  font-size: 0.875rem;
-  color: #000;
-  font-weight: bold;
-  padding: 0.75rem 1.563rem;
-  margin: 1.5rem auto;
-  cursor: pointer;
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+#btn:hover {
+  background: black;
+  color: whitesmoke;
 }
 
 .jokenote {
